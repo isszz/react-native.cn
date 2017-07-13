@@ -173,6 +173,19 @@
 	    </h4>
 	    <div><p>为WebView设置user-agent字符串标识。这一字符串也可以在原生端用WebViewConfig来设置，但js端的设置会覆盖原生端的设置。</p></div>
 	</div>
+	
+<div class="prop">
+	<h4 class="propTitle">
+		<a class="anchor" name="thirdpartycookiesenabled"></a>
+		<span class="platform">android</span>thirdPartyCookiesEnabled?: 
+		<span class="propType">bool</span> <a class="hash-link" href="#thirdpartycookiesenabled">#</a>
+	</h4>
+	<div>
+		<p>在 <code>WebView</code>中启用第三方cookie的布尔值。该属性仅在Android Lollipop及以上版本上使用，默认情况下，Android Kitkat以及iOS默认启用第三方Cookie。 <code>true</code>.</p>
+	</div>
+</div>	
+	
+	
 </div>
 
 ### 例子
